@@ -1,0 +1,16 @@
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+
+camel:
+  component:
+    kafka:
+      brokers: localhost:9092
+
+
+    servlet:
+      mapping:
+        contextPath=/*
