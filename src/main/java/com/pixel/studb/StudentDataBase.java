@@ -1,11 +1,14 @@
 package com.pixel.studb;
 
 import com.pixel.model.Student;
+import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 import java.util.function.Supplier;
 
+@Component
 public class StudentDataBase {
 
     public static Supplier<Student> studentSupplier = () -> {
@@ -32,4 +35,5 @@ public class StudentDataBase {
         List<Student> students = Arrays.asList(student1,student2,student3,student4,student5,student6);
         return students;
     }
+
 }
