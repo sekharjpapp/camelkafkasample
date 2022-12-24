@@ -1,6 +1,7 @@
 import './App.css';
 import ArrayListiterator from './components/ArrayListiterator';
 import BasicForm from './components/BasicForm';
+import CheckBoxDropDown from './components/CheckBoxDropDown';
 import ShowhideFunctional from './components/ShowhideFunctional';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <BasicForm />
       <ArrayListiterator/>
       <ShowhideFunctional />
+      <CheckBoxDropDown />
     </div>
   );
 }

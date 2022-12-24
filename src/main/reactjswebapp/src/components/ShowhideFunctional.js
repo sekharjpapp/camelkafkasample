@@ -64,7 +64,7 @@ const ShowhideFunctional = () => {
             <div className="form-group row mt-5 text-center">
             <label className="form-check-labecol-sm-2 col-form-label"></label>
             <div className='col-sm-10 mt-2'>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" className="btn btn-primary">Submit</button>
             </div>
         </div>
         
