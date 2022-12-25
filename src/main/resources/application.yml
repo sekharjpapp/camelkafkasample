@@ -13,7 +13,7 @@ camel:
 
     servlet:
       mapping:
-        contextPath=/*
+        contextPath=/restapi/*
 
 server:
   port: 9595
@@ -23,7 +23,7 @@ spring:
     driverClassName: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/reactcameldb
     username: root
-    password: sekhar
+    password:
   jpa:
     hibernate.ddl-auto: update
     generate-ddl: true
